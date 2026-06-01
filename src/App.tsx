@@ -14,19 +14,15 @@ export default function Page() {
     const phrases = [
       "No",
       "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a mint chocolate chip on top",
-      "What about a Vanilla Nespresso w. Caramel Macchiato creamer?",
-      "please babe",
-      "PLEASE BABE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to Adam's ghost",
-      ":((((",
-      "PRETTY PLEASE",
-      "No :(",
+      "Now i feel like a wet fish",
+      "It's okay, I sent this to the whole BSC team",
+      "Come on",
+      "It's giving priviledged prick again..",
+      "NAUUUUUUUR",
+      "ok i'm cross with you",
+      "NOOOOOON (with the very French accent)",
+      "After you gave me a black eye..",
+      "Ok i'm done, you can actually say yes"
     ];
 
     return phrases[Math.min(noCount, phrases.length - 1)];
@@ -37,7 +33,8 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I love you pookie!! ;))</div>
+          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I hope you enjoyed this lame thing!! ;))</div>
+          <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm text-gray-600">I'm quite embarrassed... but I'll embrace it</div>
         </>
       ) : (
         <>
@@ -45,7 +42,7 @@ export default function Page() {
             className="h-[200px]"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
-          <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
+          <h1 className="my-4 text-4xl">Will you be my girlfriend?</h1>
           <div className="flex items-center">
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
