@@ -33,7 +33,13 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="my-4 text-4xl font-bold">WOOOOOO!!! I hope you enjoyed this lame thing!! ;))</div>
+          <div className="my-4 text-center text-2xl font-bold sm:text-3xl md:text-4xl">
+            WOOOOOO!!! I hope you enjoyed this lame thing!! ;))
+          </div>
+
+        <div className="mb-4 text-center text-base text-gray-600 sm:text-lg">
+        Now refresh and click on the "No" as many times as possible. It's funnier 😌
+        </div>
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-sm text-gray-600">I'm quite embarrassed... but I'll embrace it</div>
         </>
       ) : (
